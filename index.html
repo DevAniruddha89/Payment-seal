@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>payment form  </title>
 </head>
-<body>
-    
-mhdjhdsnsdg
 
+<body>
+    <form action="">
+        <h1> Payment form</h1>
+        <h2> Pontect information</h2>
+        <p> Name : <input type="text" name="name"></p>
+        <fieldset>
+            <legend> gender</legend>
+            
+             <p>male<input type="radio" name="gender" id="male" female> <input type="radio" ></p>
+             <p>female<input type="radio" name="gender" id="female" female> <input type="radio"></p>
+              
+        </fieldset>
+        <p><Address: textarea name="Address" id="Address" cols="100" rows="8"></textarea></p>
+        <p> Email*: <input type=" email" name="email" id="email"> </p>
+        <p> Pincode: <input type="number" name " pincode" id="pincode"> </p>
+        <h3> Payment nformation</h3>
+        <p> Card type: 
+        <select name=" card type" id=" cardtype">
+        <option value=" "> ---select a card type--- </option>
+        <option value="Visa"> Visa</option>
+        <option value="rupay"> rupay</option>
+        <option value="mastercard"> mastercard</option>
+        <option value="carditcard"> carditcard</option>
+        </select>
+        </p>
+        <p> Card number * <input type="number" name="card_number" id="card_number" requered> </p>
+        <p> Expertion data * <input type="date" name="exp_date" id="exp_date" requered> </p>
+        <p> Cvv <input type="password" name="cvv" id="cvv" requered> </p>
+        <input type="submit" value="pay now">
 </body>
 </html>
